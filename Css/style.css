@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    background-color: rgb(188, 230, 243);
+}
+.heading button{
+    background-color: white;
+    color: black;
+    float: right;
+    border: 1px;
+    border-radius: 8px;
+    width: 100px;
+    height: 20px;
+}
+.container1 {
+    display: flex;
+    padding: 3em;
+    /* width: 300px;
+    height: 100px; */
+    margin-top: 20px;
+}
+.icon2{
+    position: relative;
+    /* margin-right: 600px;
+    padding-bottom: 600px;
+    padding-left: 100px; */
+    width: inherit;
+    height: inherit;
+}
+.icon2 svg{
+    width: 500px;
+    height: 300px;
+}
+.container2{
+    display: flex;
+}
+.builder1 button{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 150px;
+    height: 30px;   
+}
+.container3{
+    display: flex;
+}
+.container4{
+    display: flex;
+}
+.container5{
+    display: grid;
+    justify-content: center;
+    padding: 2em;
+}
+.container5 button{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    width: 200px;
+    height: 30px;
+    border: 1px;
+    border-radius: 8px;
+    justify-content: center;
+}
+.footer{
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    color: white;
+}
+.nav-area1{
+    display: grid;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+}
+.nav-area2{
+    display: grid;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+}
+.nav-area3{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+}
